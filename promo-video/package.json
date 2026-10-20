@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Helper scripts for the promo-video Claude skill: detect, run, capture and compose promo videos of web apps and web games.",
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=18"

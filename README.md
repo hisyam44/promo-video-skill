@@ -184,10 +184,15 @@ install.sh                  installer
 | Choppy game footage | Desktop: `--headed` or a smaller viewport. Phone: `"deviceScaleFactor": 2`. Don't capture while a render is running. |
 | Clip shows a spinner or empty state | Add `waitFor` / `wait` actions, or seed data with `localStorage` / `before` actions |
 
+## License
+
+[MIT](LICENSE) © 2026 Hisyam. The MIT license covers this repository's code only. Remotion,
+which the skill installs into each video project, has its own license: it's free for
+individuals and companies of up to 3 people, and larger companies need a
+[Remotion company license](https://www.remotion.pro).
+
 ## Notes
 
-- **Remotion license:** Remotion is free for individuals and companies of up to 3 people.
-  Larger companies need a [Remotion company license](https://www.remotion.pro).
 - **Store badges:** the badges the skill draws are generic text-only placeholders. For
   official artwork, use Apple's and Google's marketing badge resources.
 - **Audio:** browsers can't record app audio through Playwright. Videos use music you
