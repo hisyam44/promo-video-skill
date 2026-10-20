@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Pocket Habits", "width": 1080, "height": 1920, "fps": 30, "transition": 0.4,
+    "device": "phone", "logo": "../public/logo.svg",
+    "brand": { "primary": "#10b981", "secondary": "#6366f1", "background": "#0b1220", "surface": "#111a2e", "font": "Manrope", "headingFont": "Manrope" },
+    "stores": ["app-store", "google-play"],
+    "music": { "src": "assets/music.m4a", "volume": 0.7 }
+  },
+  "scenes": [
+    { "type": "clip", "duration": 3.6, "src": "captures/phone-checkin.mp4", "from": 0.5, "badge": "Pocket Habits", "heading": "One tap. Streak saved." },
+    { "type": "clip", "duration": 5.8, "src": "captures/phone-new-habit.mp4", "from": 0.3, "transition": "slide", "heading": "Add a habit in seconds" },
+    { "type": "gallery", "duration": 3.8, "transition": "slide", "heading": "Everything at a glance", "devices": [ { "src": "captures/phone-today.png" }, { "src": "captures/phone-stats.png" }, { "src": "captures/phone-new-habit.mp4", "from": 4.2 } ] },
+    { "type": "image", "duration": 3.0, "src": "captures/tablet-today.png", "transition": "cut", "heading": "Great on iPad too" },
+    { "type": "cta", "duration": 3.8, "heading": "Start your streak", "subheading": "Coming soon to iPhone and Android", "src": "captures/phone-stats.png" }
+  ]
+}

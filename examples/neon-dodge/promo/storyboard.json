@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Neon Dodge",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "transition": 0.4,
+    "device": "phone",
+    "statusBar": false,
+    "logo": "../logo.svg",
+    "brand": {
+      "primary": "#22d3ee",
+      "secondary": "#f472b6",
+      "background": "#05050c",
+      "surface": "#0d0b1f",
+      "font": "Inter",
+      "headingFont": "Space Grotesk"
+    },
+    "stores": [
+      "app-store",
+      "google-play"
+    ],
+    "music": {
+      "src": "assets/music.m4a",
+      "volume": 0.7
+    }
+  },
+  "scenes": [
+    {
+      "type": "clip",
+      "duration": 2.6,
+      "src": "captures/gameplay.mp4",
+      "from": 4.6,
+      "frame": "none",
+      "badge": "Free to play",
+      "heading": "Dodge."
+    },
+    {
+      "type": "title",
+      "duration": 2.4,
+      "heading": "Neon Dodge",
+      "subheading": "A tiny arcade rush for your phone"
+    },
+    {
+      "type": "clip",
+      "duration": 3.4,
+      "src": "captures/gameplay.mp4",
+      "from": 0.9,
+      "heading": "Hold to steer. Swipe to dash.",
+      "zoom": {
+        "from": 1,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "duration": 3.6,
+      "heading": "Simple. Fast. Addictive.",
+      "devices": [
+        {
+          "src": "captures/title.png"
+        },
+        {
+          "src": "captures/gameplay.mp4",
+          "from": 5
+        },
+        {
+          "src": "captures/gameplay.mp4",
+          "from": 7
+        }
+      ],
+      "transition": "slide"
+    },
+    {
+      "type": "features",
+      "duration": 4,
+      "heading": "Built for thumbs",
+      "src": "captures/gameplay.mp4",
+      "from": 6.5,
+      "items": [
+        {
+          "text": "One-hand controls",
+          "icon": "\ud83d\udc46"
+        },
+        {
+          "text": "60-second runs",
+          "icon": "\u23f1"
+        },
+        {
+          "text": "Plays offline",
+          "icon": "\u2708"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "type": "cta",
+      "duration": 3.6,
+      "heading": "Get Neon Dodge",
+      "subheading": "Free on iPhone and Android",
+      "src": "captures/title.png"
+    }
+  ]
+}

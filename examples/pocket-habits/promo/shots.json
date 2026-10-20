@@ -1,0 +1,192 @@
+{
+  "device": "phone",
+  "shots": [
+    {
+      "name": "phone-today",
+      "type": "screenshot",
+      "path": "/",
+      "fresh": true
+    },
+    {
+      "name": "phone-checkin",
+      "path": "/",
+      "fresh": true,
+      "tailMs": 1000,
+      "actions": [
+        {
+          "do": "wait",
+          "ms": 500
+        },
+        {
+          "do": "tap",
+          "selector": "[data-check=\"1\"]"
+        },
+        {
+          "do": "wait",
+          "ms": 800
+        },
+        {
+          "do": "tap",
+          "selector": "[data-check=\"2\"]"
+        },
+        {
+          "do": "wait",
+          "ms": 800
+        },
+        {
+          "do": "swipe",
+          "direction": "up",
+          "distance": 0.35
+        },
+        {
+          "do": "wait",
+          "ms": 600
+        }
+      ]
+    },
+    {
+      "name": "phone-new-habit",
+      "path": "/",
+      "fresh": true,
+      "tailMs": 1000,
+      "actions": [
+        {
+          "do": "tap",
+          "selector": "[data-testid=new-habit]"
+        },
+        {
+          "do": "type",
+          "selector": "input[name=title]",
+          "text": "Practice guitar"
+        },
+        {
+          "do": "tap",
+          "selector": ".emojis button:has-text(\"\ud83c\udfb8\")"
+        },
+        {
+          "do": "tap",
+          "selector": "text=Create habit"
+        },
+        {
+          "do": "wait",
+          "ms": 700
+        },
+        {
+          "do": "tap",
+          "selector": "button.check >> nth=0"
+        },
+        {
+          "do": "wait",
+          "ms": 900
+        }
+      ]
+    },
+    {
+      "name": "phone-stats",
+      "type": "screenshot",
+      "path": "/#/stats"
+    },
+    {
+      "name": "tablet-today",
+      "type": "screenshot",
+      "device": "tablet",
+      "path": "/",
+      "fresh": true
+    },
+    {
+      "name": "desktop-today",
+      "type": "screenshot",
+      "device": "desktop",
+      "path": "/",
+      "fresh": true
+    },
+    {
+      "name": "desktop-checkin",
+      "device": "desktop",
+      "path": "/",
+      "fresh": true,
+      "tailMs": 900,
+      "actions": [
+        {
+          "do": "wait",
+          "ms": 400
+        },
+        {
+          "do": "click",
+          "selector": "[data-check=\"1\"]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-check=\"2\"]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-check=\"4\"]"
+        },
+        {
+          "do": "wait",
+          "ms": 600
+        }
+      ]
+    },
+    {
+      "name": "desktop-new-habit",
+      "device": "desktop",
+      "path": "/",
+      "fresh": true,
+      "tailMs": 900,
+      "actions": [
+        {
+          "do": "click",
+          "selector": "[data-testid=new-habit]"
+        },
+        {
+          "do": "type",
+          "selector": "input[name=title]",
+          "text": "Practice guitar"
+        },
+        {
+          "do": "click",
+          "selector": ".emojis button:has-text(\"\ud83c\udfb8\")"
+        },
+        {
+          "do": "click",
+          "selector": "text=Create habit"
+        },
+        {
+          "do": "wait",
+          "ms": 900
+        }
+      ]
+    },
+    {
+      "name": "desktop-progress",
+      "device": "desktop",
+      "path": "/",
+      "tailMs": 1200,
+      "actions": [
+        {
+          "do": "click",
+          "selector": "a:has-text(\"Progress\")"
+        },
+        {
+          "do": "wait",
+          "ms": 600
+        },
+        {
+          "do": "hover",
+          "selector": ".heat",
+          "at": [
+            0.7,
+            0.5
+          ],
+          "duration": 900
+        },
+        {
+          "do": "wait",
+          "ms": 600
+        }
+      ]
+    }
+  ]
+}

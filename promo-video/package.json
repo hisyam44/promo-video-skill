@@ -1,0 +1,17 @@
+{
+  "name": "promo-video-skill",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Helper scripts for the promo-video Claude skill: detect, run, capture and compose promo videos of web apps and web games.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.mjs",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}

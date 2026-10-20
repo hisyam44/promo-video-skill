@@ -1,0 +1,64 @@
+{
+  "device": "phone",
+  "fullscreen": true,
+  "shots": [
+    {
+      "name": "title",
+      "type": "screenshot",
+      "path": "/?seed=42",
+      "settleMs": 1000
+    },
+    {
+      "name": "gameplay",
+      "path": "/?seed=42",
+      "actions": [
+        {
+          "do": "tap",
+          "at": [
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "do": "longPress",
+          "at": [
+            0.2,
+            0.8
+          ],
+          "ms": 700
+        },
+        {
+          "do": "swipe",
+          "direction": "up",
+          "at": [
+            0.8,
+            0.7
+          ],
+          "distance": 0.2
+        },
+        {
+          "do": "mash",
+          "taps": [
+            {
+              "at": [
+                0.15,
+                0.8
+              ]
+            },
+            {
+              "at": [
+                0.85,
+                0.8
+              ]
+            }
+          ],
+          "ms": 6500,
+          "minHold": 200,
+          "maxHold": 700,
+          "seed": 5
+        }
+      ]
+    }
+  ],
+  "deviceScaleFactor": 2
+}

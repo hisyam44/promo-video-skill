@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+
+# Example render outputs; the shot plans and storyboards are kept as reference inputs
+examples/*/promo/*
+!examples/*/promo/shots.json
+!examples/*/promo/storyboard*.json

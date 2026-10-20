@@ -1,0 +1,7 @@
+{
+  "meta": { "title": "Your Product", "width": 1920, "height": 1080, "fps": 30, "transition": 0.5, "url": "example.com" },
+  "scenes": [
+    { "type": "title", "duration": 3, "heading": "Your Product", "subheading": "Replace this storyboard with build_remotion.mjs" },
+    { "type": "cta", "duration": 3, "heading": "Try it today", "button": "Get started" }
+  ]
+}

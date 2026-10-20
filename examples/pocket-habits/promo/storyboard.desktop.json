@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "Pocket Habits", "width": 1920, "height": 1080, "fps": 30, "transition": 0.45,
+    "url": "pockethabits.example", "logo": "../public/logo.svg",
+    "brand": { "primary": "#10b981", "secondary": "#6366f1", "background": "#0b1220", "surface": "#111a2e", "font": "Manrope", "headingFont": "Manrope" },
+    "music": { "src": "assets/music.m4a", "volume": 0.7 }
+  },
+  "scenes": [
+    { "type": "title", "duration": 2.6, "kicker": "Habit tracking, simplified", "heading": "Streaks without the spreadsheet", "subheading": "Pocket Habits keeps your goals one tap away" },
+    { "type": "clip", "duration": 4.2, "src": "captures/desktop-checkin.mp4", "from": 0.8, "badge": "Daily check-ins", "heading": "One click. Streak saved.", "zoom": { "from": 1, "to": 1.14, "focus": [0.5, 0.0] } },
+    { "type": "clip", "duration": 6.4, "src": "captures/desktop-new-habit.mp4", "from": 0.7, "badge": "New habit", "heading": "Add a habit in seconds", "zoom": { "from": 1.0, "to": 1.12, "focus": [0.5, 0.25] } },
+    { "type": "features", "duration": 4.6, "heading": "See your progress", "src": "captures/desktop-progress.mp4", "from": 0.8,
+      "items": [ { "text": "12-week heatmap", "icon": "▦" }, { "text": "Streak counters", "icon": "🔥" }, { "text": "Works offline", "icon": "✈" } ] },
+    { "type": "clip", "duration": 4.0, "src": "captures/phone-checkin.mp4", "from": 0.6, "transition": "slide", "badge": "Mobile", "heading": "Your phone, too.", "subheading": "Installable app for iPhone and Android" },
+    { "type": "cta", "duration": 3.6, "heading": "Start your streak today", "button": "Try Pocket Habits free", "url": "pockethabits.example" }
+  ]
+}
